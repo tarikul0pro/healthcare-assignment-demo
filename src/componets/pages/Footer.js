@@ -93,7 +93,7 @@ const Footer = () => {
             </div>
             <hr className="m-0 p-0" />
             <p className="text-center m-0 py-3 copyright">
-                Copyright © 2018 Oreo Theme by ThemeMakker
+                Copyright © 2018 taken by MR tarikul tuhin boss
             </p>
         </div>
     );

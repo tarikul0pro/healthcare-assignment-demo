@@ -1,15 +1,30 @@
 import React from 'react';
+import "./About.css"
 
 const About = () => {
     return (
-        <div className="container">
-            <div>
-                <img  src="https://thememakker.com/templates/oreo/hospital/front/assets/images/about-page-img.jpg" alt="" />
+       <div className="Conatainer">
+            <div className="about">
+                <div className="pic">
+                    <img width="100%" height="" src="https://as2.ftcdn.net/v2/jpg/02/05/99/49/500_F_205994998_N9wbb3q5V8ZCmho22xOCx2lkDgS53fmH.jpg" alt="" />
+                </div>
+                <div className="goal">
+                    <h1>Our goal is to make sure
+                        with advances in
+                        technology</h1>
+                    <p>Professional dental clinic 32roDent offers the whole range of dentistry services: treatment of caries, gum diseases, tooth whitening, implantation, dentures (crowns installation), surgery, correction (braces) <etc className=""></etc></p>
+                    <div className="btn btn-warning practice ">more about practice</div>
+
+                </div>
+           </div>
+
             </div>
-            <div >
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam molestias sequi magni veritatis vero odit amet quam aliquam, omnis officiis sapiente quas velit, asperiores numquam officia doloribus quaerat soluta quo tempore voluptatum, exercitationem eos id eum. Perferendis fugit nostrum animi perspiciatis quam, nisi laborum optio qui, accusamus numquam placeat dicta?</p>
-            </div>
-        </div>
+        
+                
+            
+               
+           
+     
         
         
     );

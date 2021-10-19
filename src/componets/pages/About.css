@@ -1,1 +1,15 @@
+.about{
+    display: flex;
+justify-content:center;
+align-items: center;
+    
+}
+.practice{
+    border-radius: 15px;
+}
+.practice:hover{
+    background-color: tomato!important;
+    color: grey;
+}
 
+    

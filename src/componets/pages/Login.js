@@ -14,7 +14,11 @@ const Login = () => {
                     <input className="form" type="password" placeholder="your password" /><br />
                     <input className="form" type="submit" value="please submit" />
                     <p>Need an Account? Please Sign up <br />
-                        Forget password? Reset<br />
+                        Forget password? Reset here er dp
+                        Need an Account? Please Sign up <br />
+                        Forget password? Reset here er dp
+                        Need an Account? Please Sign up <br />
+                        Forget password? Reset here er dp<br />
                         <Link to="./register" >login</Link>
                     </p>
                     <div>-----------or-------------</div>
