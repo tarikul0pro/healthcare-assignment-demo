@@ -1,0 +1,13 @@
+.conatainer{
+    margin: 20px;
+    border: 4px solid grey;
+    padding: 10px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: gainsboro;
+    text-align: center;
+}
+.text{
+
+    color: red;
+}

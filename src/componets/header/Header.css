@@ -1,0 +1,19 @@
+.register{
+border-radius: 8px;
+
+
+}
+.register:hover{
+    background-color: tomato;
+    color: white;
+}
+.login{
+    border-radius: 8px;
+    
+
+}
+.login:hover{
+    background-color: tomato;
+    color: white;
+}
+
