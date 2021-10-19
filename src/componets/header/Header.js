@@ -10,7 +10,7 @@ const Header = () => {
     return (
         
         <div>
-            <h1>hello</h1>
+            
             <Navbar style={{ background: `url(${HeaderBG})`}} expand="lg">
                 <Container>
                     <Navbar.Brand  className="text-white" href="#home">
