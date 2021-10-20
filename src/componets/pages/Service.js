@@ -27,10 +27,8 @@ const Home = () => {
                                     </div>
                                     <p className="name"> Name:{medicine.name}</p>
                                     <p className="name"> service:{medicine.service}</p>
-                                    <div className="d-flex card-body">
-                                        <a class="btn btn-primary w-100 me-1" href="https://thememakker.com/templates/oreo/hospital/front/assets/images/team-member-02.png"> <Link to="/viewmore"></Link>view more</a>
-                                        <button className="btn btn-primary  w-100">Add to Cart</button>
-                                    </div>
+                                    
+                                        <button className="btn btn-primary d-block mx-auto  w-100">about doctores</button>                                                  
 
                                 </div>
                             </div>

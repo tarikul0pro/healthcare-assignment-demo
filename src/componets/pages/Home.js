@@ -73,10 +73,12 @@ const Home = () => {
                                     </div>
                                     <p className="name"> Name:{medicine.name}</p>
                                     <p className="name"> service:{medicine.service}</p>
-                                    <div className="d-flex card-body">
-                                        <a  class="btn btn-primary w-100 me-1"> <Link to="/viewmore"></Link>view more</a>
+                                   
+                                    <Link to={`/viewmore/${medicine.id}`}>
+                                            <button className="btn btn-danger d-block mx-auto w-100">view more</button></Link>
+                                      
                                         
-                                   </div>
+                                  
                                     
                                 </div>
                             </div>

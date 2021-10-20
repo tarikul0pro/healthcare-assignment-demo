@@ -13,15 +13,17 @@ import Service from './componets/pages/Service.js';
 import Doctors from './componets/pages/Doctors.js';
 import Login from './componets/pages/Login.js';
 import PageNotFound from './componets/pages/PageNotFound.js';
-import Register from './componets/pages/Register.js';
 import Contact from './componets/pages/Contact.js';
 import About from './componets/pages/About.js';
 import Footer from './componets/pages/Footer.js';
+import AuthProvider from './componets/contexts/AuthProvider.js';
+import Viewmore from './componets/pages/Viewmore.js';
+import Details from './componets/pages/Details.js';
 
 function App() {
   return (
     <div>
-      
+      <AuthProvider>
       <Router>
         <Header></Header>
         <Switch>
@@ -39,9 +41,7 @@ function App() {
             <Doctors></Doctors>
           </Route>
           
-          <Route path="/register">
-           <Register></Register>
-          </Route>
+          
           <Route path="/Login">
            <Login></Login>
           </Route>
@@ -51,18 +51,23 @@ function App() {
           </Route>
           <Route path="/about">
            <About></About>
-          </Route>
+            </Route>
+            <Route path="/details">
+              <Details></Details>
+            </Route>
+            <Route path="/viewmore/:homeId">
+              <Viewmore></Viewmore>
+            </Route>
           
-          <Route exact path="*">
+          <Route  path="*">
             <PageNotFound></PageNotFound>
           </Route>
-        
-          
-          
+                 
         </Switch>
         <Footer></Footer>
       </Router>
-        
+    </AuthProvider>
+      hello
     </div>
   );
 }

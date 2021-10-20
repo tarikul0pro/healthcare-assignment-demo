@@ -4,11 +4,11 @@ import "./About.css"
 const About = () => {
     return (
        <div className="Conatainer">
-            <div className="about">
-                <div className="pic">
-                    <img width="100%" height="" src="https://as2.ftcdn.net/v2/jpg/02/05/99/49/500_F_205994998_N9wbb3q5V8ZCmho22xOCx2lkDgS53fmH.jpg" alt="" />
+            <div className="row my-5 mx-auto">
+                <div className="col-md-6">
+                    <img width="100%" src="https://www.parkhospital.in/park-hospital-faridabad/img/Park-web-banner-2.jpg" alt="" />
                 </div>
-                <div className="goal">
+                <div className="col-md-6">
                     <h1>Our goal is to make sure
                         with advances in
                         technology</h1>

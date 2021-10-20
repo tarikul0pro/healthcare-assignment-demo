@@ -2,7 +2,11 @@
     display: flex;
 justify-content:center;
 align-items: center;
+    margin: 120px 20px;
+}
     
+.pic{
+    margin-right: 70px;
 }
 .practice{
     border-radius: 15px;
